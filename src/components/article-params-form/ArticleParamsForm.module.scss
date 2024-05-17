@@ -23,10 +23,25 @@
 	padding: 50px 31px;
 	background-color: #ffffff;
 	border-right: 1px solid #000000;
+	gap: 50px;
 }
 
 .bottomContainer {
 	display: flex;
 	justify-content: space-between;
 	margin-top: auto;
+}
+
+.title {
+	font-family: 'Open Sans';
+	font-size: 31px;
+	font-weight: 800;
+	text-transform: uppercase;
+	line-height: 42.22px;
+}
+
+.fieldSet {
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
 }
